@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: launches
+        description: SpaceX Historical Launch Record
+      - name: starlink
+        description: SpaceX's Starlink satellites

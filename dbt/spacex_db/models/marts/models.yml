@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: starlink_launches
+    columns:
+      - name: launch_id,
+        meta:
+          dimension:
+            type: number
+            label: 'Launch ID'
+            description: 'The launch'
+        tests:
+          - unique
+          - not_null
+
+      - name: launch_name,
+        meta:
+          dimension:
+            type: string
+            label: 'Launch Name'
+            description: 'The Launch Name'
+      - name: launch_rocket,
+        meta:
+          dimension: 
+            type: string
+            label: 'Launch Rocket'
+            description: 'launch rocket'
+      - name: launch_success,
+        meta:
+          dimension:
+            type: string
+            label: 'Launch Success'
+            description: 'true/false'
+        tests:
+          - accepted_values:
+              values: ['true', 'false']
+      - name: payloads,
+        meta:
+          dimension:
+            type: string
+            label: 'An array of payloads'
+            description: 'Payloads'
+      - name: date_unix,
+        meta:
+          dimension:
+            type: number
+            label: 'Launch Unixtime'
+            description: 'Launch Unixtime'
+      - name: launch_upcoming
+        meta:
+          dimension:
+            type: string
+            label: 'Whether launch is upcoming'
+            description: 'Whether launch is upcoming'
+      - name: satellite_id
+        meta:
+          dimension: number
+          label: "Starlink satellite ID"
+          description:  "Starlink satellite ID"

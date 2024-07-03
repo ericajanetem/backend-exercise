@@ -1,0 +1,39 @@
+# models:
+#   - name: stg_launches
+#     description: SpaceX Historical Launch Record
+#     columns:
+#       - name: launch_id
+#         description: The unique launch id
+#         data_tests:
+#           - not_null
+#           - unique
+#       - name: launch_name
+#         description: Name of the launch
+#       - name: 
+#       - name: launch_rocket
+#         description: The rocket it was launched on
+#       - name: launch_success
+#         description: Whether the launch was a success
+#       - name: payloads
+#         description: The payload of the launch
+#       - name: date_unix
+#         description: Date of the launch (unixtime)
+#       - name: date_utc
+#         description: Date of the launch (UTC)
+#       - name: date_local
+#         description: Date of the launch (Local)
+#       - name: launch_upcoming
+#         description: Whether the launch has happened
+#   - name: stg_starlink
+#     description: SpaceX Starlink Record
+#     columns:
+#       - name: satellite_id
+#         description: The unique satellite starlink id
+#         data_tests:
+#           - not_null
+#           - unique
+#       - name: satellite_launch_id
+#         description: ID of the launch 
+#       - name: satellite_info
+#         description: JSON info of the starlink satellite
+  

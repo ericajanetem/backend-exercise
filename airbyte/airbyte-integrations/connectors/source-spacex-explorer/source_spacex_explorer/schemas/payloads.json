@@ -1,0 +1,243 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": true,
+    "properties": {
+      "apoapsis_km": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "arg_of_pericenter": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "customers": {
+        "items": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "dragon": {
+        "properties": {
+          "capsule": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "flight_time_sec": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "land_landing": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "manifest": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mass_returned_kg": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "mass_returned_lbs": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "water_landing": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "eccentricity": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "epoch": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "id": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "inclination_deg": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "launch": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "lifespan_years": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "longitude": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "manufacturers": {
+        "items": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "mass_kg": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "mass_lbs": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "mean_anomaly": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "mean_motion": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "nationalities": {
+        "items": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "norad_ids": {
+        "items": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "orbit": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "periapsis_km": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "period_min": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "raan": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "reference_system": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "regime": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reused": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "semi_major_axis_km": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "type": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "type": "object"
+  }

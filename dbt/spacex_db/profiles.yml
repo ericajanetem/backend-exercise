@@ -1,0 +1,15 @@
+# profiles.yml
+# Replace the profile name with a name of your choice
+spacex_db:
+  target: spacex_db
+  outputs:
+    spacex_db:
+      type: postgres
+      host: "{{ env_var('DBT_HOST') }}"
+      port: 6543
+      user: "{{ env_var('DBT_USER') }}"
+      password: "{{ env_var('DBT_PASSWORD') }}"
+      dbname: postgres
+      schema: public
+      threads: 2
+      keepalives_idle: 0
